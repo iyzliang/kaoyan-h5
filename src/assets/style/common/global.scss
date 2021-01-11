@@ -1,0 +1,5 @@
+$ratio: 75;
+
+@function rem($px) {
+  @return $px / $ratio * 1rem;
+}
